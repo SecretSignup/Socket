@@ -3,6 +3,6 @@
  *
  */
 export default interface Type {
-    display_name: string;
-    id: string;
+	display_name: string;
+	id: string;
 }
