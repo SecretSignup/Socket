@@ -26,7 +26,7 @@
 		"@common/now-playing_cards": "0.0.1"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "4.20231121.0",
+		"@cloudflare/workers-types": "4.20231218.0",
 		"@miniflare/tre": "3.0.0-next.14",
 		"@types/dotenv": "8.2.0",
 		"@typescript-eslint/eslint-plugin": "6.15.0",
