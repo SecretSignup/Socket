@@ -29,11 +29,7 @@
 		"@cloudflare/workers-types": "4.20231218.0",
 		"@miniflare/tre": "3.0.0-next.14",
 		"@types/dotenv": "8.2.0",
-<<<<<<< HEAD
 		"@typescript-eslint/eslint-plugin": "6.18.1",
-=======
-		"@typescript-eslint/eslint-plugin": "6.18.0",
->>>>>>> 31cad5d3b093f72b6b163bf7f5499b3a06d898bc
 		"@typescript-eslint/parser": "6.18.1",
 		"eslint": "8.56.0",
 		"miniflare": "3.20231218.1",
