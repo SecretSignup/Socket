@@ -2,7 +2,7 @@
  * @module Worker
  *
  */
-export default ({
+export default {
 	fetch: async (...[{ headers }, Environment]: Parameters<Type["fetch"]>) => {
 		const Upgrade = headers.get("Upgrade");
 
@@ -89,7 +89,7 @@ export default ({
 
 		return new Response("Can't make a WebSocket.", { status: 404 });
 	},
-} satisfies Type as Type);
+} satisfies Type as Type;
 
 export const { default: Access } = await import(
 	"@common/now-playing_cards/Target/Function/Access.js"
