@@ -76,7 +76,9 @@ export default {
 							Data: Put(Data),
 						}),
 					);
-				} catch (_Error) {}
+				} catch (_Error) {
+					console.log(_Error);
+				}
 			});
 		}
 
