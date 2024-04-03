@@ -2,7 +2,7 @@
  * @module Worker
  *
  */
-export default interface Type {
+export default interface Interface {
 	display_name: string;
 	id: string;
 }

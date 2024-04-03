@@ -2,7 +2,7 @@
  * @module Worker
  *
  */
-export default interface Type {
+export default interface Interface {
 	Token: KVNamespace;
 	HTML: KVNamespace;
 	CSS: KVNamespace;

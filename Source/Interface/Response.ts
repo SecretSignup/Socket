@@ -2,7 +2,7 @@
  * @module Response
  *
  */
-export default interface Type {
+export default interface Interface {
 	/**
 	 * The function `Response` is an asynchronous function that returns a response object with a JSON
 	 * stringified Message and a specified status code.

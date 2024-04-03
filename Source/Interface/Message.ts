@@ -2,7 +2,7 @@
  * @module Worker
  *
  */
-export default interface Type {
+export default interface Interface {
 	// biome-ignore lint/suspicious/noExplicitAny:
 	[key: string]: any;
 }
