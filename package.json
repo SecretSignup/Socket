@@ -27,7 +27,7 @@
 		"@common/now-playing_cards": "0.0.1"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "4.20240329.0",
+		"@cloudflare/workers-types": "4.20240402.0",
 		"@miniflare/tre": "3.0.0-next.14",
 		"@playform/build": "0.0.2",
 		"@types/dotenv": "8.2.0",
