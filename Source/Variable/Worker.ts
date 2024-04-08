@@ -105,6 +105,6 @@ export const { WebSocketPair } = await import(
 	"@cloudflare/workers-types/experimental/index.js"
 );
 
-import type Data from "../Interface/Data.js";
-import type Me from "../Interface/Me.js";
-import type Type from "../Interface/Worker.js";
+import type Data from "@Interface/Data.js";
+import type Me from "@Interface/Me.js";
+import type Type from "@Interface/Worker.js";
