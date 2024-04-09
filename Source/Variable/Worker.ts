@@ -3,7 +3,9 @@
  *
  */
 export default {
-	fetch: async (...[{ headers }, Environment]: Parameters<Type["fetch"]>) => {
+	fetch: async (
+		...[{ headers }, Environment]: Parameters<Interface["fetch"]>
+	) => {
 		const Upgrade = headers.get("Upgrade");
 
 		if (!Upgrade || Upgrade !== "websocket") {
@@ -39,17 +41,17 @@ export default {
 													Authorization: `Bearer ${await Access(
 														Message.get("Key"),
 														Message.get(
-															"Identifier",
+															"Identifier"
 														),
 														Environment.Token,
-														"Token",
+														"Token"
 													)}`,
 												},
-											},
+											}
 										)
 									).json()) as Me
 								).display_name,
-						  })
+							})
 						: {};
 
 					Message.get("View") === "Content"
@@ -64,9 +66,9 @@ export default {
 											| "CSS"
 											| "TypeScript"
 									],
-									"Current",
-								)) as Message,
-						  )
+									"Current"
+								)) as Message
+							)
 						: {};
 
 					// @TODO: When leaving persist content in a time-series-like format
@@ -74,7 +76,7 @@ export default {
 						JSON.stringify({
 							Original: Put(Message),
 							Data: Put(Data),
-						}),
+						})
 					);
 				} catch (_Error) {
 					console.log(_Error);
@@ -91,7 +93,7 @@ export default {
 
 		return new Response("Can't make a WebSocket.", { status: 404 });
 	},
-} satisfies Type as Type;
+} satisfies Interface as Interface;
 
 export const { default: Access } = await import(
 	"@common/now-playing_cards/Target/Function/Access.js"
@@ -107,4 +109,4 @@ export const { WebSocketPair } = await import(
 
 import type Data from "@Interface/Data.js";
 import type Me from "@Interface/Me.js";
-import type Type from "@Interface/Worker.js";
+import type Interface from "@Interface/Worker.js";
