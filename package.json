@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://github.com/NowPlayingCards/Socket.git"
+		"url": "git+https://github.com/NowPlayingCards/Socket.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
