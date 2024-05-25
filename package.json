@@ -1,5 +1,5 @@
 {
-	"name": "@socket/now-playing_cards",
+	"name": "@socket/secret-signup",
 	"version": "0.0.1",
 	"private": false,
 	"homepage": "HTTPS://GitHub.Com/NowPlayingCards/Socket#readme",
@@ -24,7 +24,7 @@
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"@common/now-playing_cards": "0.0.1"
+		"@common/secret-signup": "0.0.1"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20240512.0",

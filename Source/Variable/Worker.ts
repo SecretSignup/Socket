@@ -3,7 +3,7 @@
  *
  */
 export default {
-	fetch: async (
+	fetch: (
 		...[{ headers }, Environment]: Parameters<Interface["fetch"]>
 	) => {
 		const Upgrade = headers.get("Upgrade");
@@ -23,7 +23,7 @@ export default {
 				try {
 					const Message = (
 						await import(
-							"@common/now-playing_cards/Target/Function/Get.js"
+							"@common/secret-signup/Target/Function/Get.js"
 						)
 					).default(JSON.parse(data.toString()));
 
@@ -41,13 +41,13 @@ export default {
 													Authorization: `Bearer ${await Access(
 														Message.get("Key"),
 														Message.get(
-															"Identifier"
+															"Identifier",
 														),
 														Environment.Token,
-														"Token"
+														"Token",
 													)}`,
 												},
-											}
+											},
 										)
 									).json()) as Me
 								).display_name,
@@ -66,8 +66,8 @@ export default {
 											| "CSS"
 											| "TypeScript"
 									],
-									"Current"
-								)) as Message
+									"Current",
+								)) as Message,
 							)
 						: {};
 
@@ -76,7 +76,7 @@ export default {
 						JSON.stringify({
 							Original: Put(Message),
 							Data: Put(Data),
-						})
+						}),
 					);
 				} catch (_Error) {
 					console.log(_Error);
@@ -96,11 +96,11 @@ export default {
 } satisfies Interface as Interface;
 
 export const { default: Access } = await import(
-	"@common/now-playing_cards/Target/Function/Access.js"
+	"@common/secret-signup/Target/Function/Access.js"
 );
 
 export const { default: Put } = await import(
-	"@common/now-playing_cards/Target/Function/Put.js"
+	"@common/secret-signup/Target/Function/Put.js"
 );
 
 export const { WebSocketPair } = await import(
