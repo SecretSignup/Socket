@@ -3,9 +3,7 @@
  *
  */
 export default {
-	fetch: (
-		...[{ headers }, Environment]: Parameters<Interface["fetch"]>
-	) => {
+	fetch: (...[{ headers }, Environment]: Parameters<Interface["fetch"]>) => {
 		const Upgrade = headers.get("Upgrade");
 
 		if (!Upgrade || Upgrade !== "websocket") {
@@ -109,4 +107,5 @@ export const { WebSocketPair } = await import(
 
 import type Data from "../Interface/Data.js";
 import type Me from "../Interface/Me.js";
+import type Message from "../Interface/Message.js";
 import type Interface from "../Interface/Worker.js";
