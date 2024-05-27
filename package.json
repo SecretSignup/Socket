@@ -20,7 +20,6 @@
 	"main": "./Target/Variable/Worker.js",
 	"types": "./Target/Variable/Worker.d.ts",
 	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
