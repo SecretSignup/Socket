@@ -69,7 +69,7 @@ export default {
 							)
 						: {};
 
-					// @TODO: When leaving persist content in a time-series-like format
+					// TODO: When leaving persist content in a time-series-like format
 					WebSocket[1].send(
 						JSON.stringify({
 							Original: Put(Message),
