@@ -34,7 +34,7 @@
 		
 		"eslint": "9.7.0",
 		"miniflare": "3.20240718.1",
-		"wrangler": "3.67.0"
+		"wrangler": "3.67.1"
 	},
 	"publishConfig": {
 		"provenance": true,
