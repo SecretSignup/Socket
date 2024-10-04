@@ -1,3 +1,8 @@
+import type Data from "../Interface/Data.js";
+import type Me from "../Interface/Me.js";
+import type Message from "../Interface/Message.js";
+import type Interface from "../Interface/Worker.js";
+
 /**
  * @module Worker
  *
@@ -104,8 +109,3 @@ export const { default: Put } = await import(
 export const { WebSocketPair } = await import(
 	"@cloudflare/workers-types/experimental/index.js"
 );
-
-import type Data from "../Interface/Data.js";
-import type Me from "../Interface/Me.js";
-import type Message from "../Interface/Message.js";
-import type Interface from "../Interface/Worker.js";
