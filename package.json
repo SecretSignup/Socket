@@ -27,9 +27,9 @@
 		"@common/secret-signup": "0.0.1"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "4.20241018.0",
+		"@cloudflare/workers-types": "4.20241022.0",
 		"@playform/build": "0.1.8",
-		"@types/dotenv": "8.2.0",
+		"@types/dotenv": "8.2.3",
 		"eslint": "9.13.0",
 		"miniflare": "3.20241018.0",
 		"wrangler": "3.82.0"
