@@ -27,11 +27,7 @@
 		"@common/secret-signup": "0.0.1"
 	},
 	"devDependencies": {
-<<<<<<< HEAD
 		"@cloudflare/workers-types": "4.20250418.0",
-=======
-		"@cloudflare/workers-types": "4.20250417.0",
->>>>>>> f979084dac80be26d462d1706e0c8b935116656c
 		"@playform/build": "0.2.3",
 		"@types/dotenv": "8.2.3",
 		"eslint": "9.24.0",
