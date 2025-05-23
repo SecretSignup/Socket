@@ -2,9 +2,9 @@
 	"name": "@socket/secret-signup",
 	"version": "0.0.1",
 	"private": false,
-	"homepage": "HTTPS://GitHub.Com/NowPlayingCards/Socket#readme",
+	"homepage": "https://GitHub.Com/NowPlayingCards/Socket#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/NowPlayingCards/Socket/issues"
+		"url": "https://GitHub.Com/NowPlayingCards/Socket/issues"
 	},
 	"repository": {
 		"type": "git",
@@ -14,7 +14,7 @@
 	"author": {
 		"name": "Source ✍🏻 Open 👐🏻",
 		"email": "Source/Open@PlayForm.Cloud",
-		"url": "HTTPS://PlayForm.Cloud"
+		"url": "https://PlayForm.Cloud"
 	},
 	"type": "module",
 	"main": "./Target/Variable/Worker.js",
