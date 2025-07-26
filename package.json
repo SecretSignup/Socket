@@ -27,12 +27,12 @@
 		"@common/secret-signup": "0.0.1"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "4.20250715.0",
+		"@cloudflare/workers-types": "4.20250722.0",
 		"@playform/build": "0.2.5",
 		"@types/dotenv": "8.2.3",
 		"eslint": "9.31.0",
-		"miniflare": "4.20250712.0",
-		"wrangler": "4.24.4"
+		"miniflare": "4.20250712.1",
+		"wrangler": "4.25.1"
 	},
 	"publishConfig": {
 		"access": "public",
