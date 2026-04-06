@@ -28,7 +28,7 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20260403.1",
-		"@playform/build": "0.3.0",
+		"@playform/build": "0.3.1",
 		"@types/dotenv": "8.2.3",
 		"eslint": "10.2.0",
 		"miniflare": "4.20260401.0",
