@@ -32,7 +32,7 @@
 		"@types/dotenv": "8.2.3",
 		"eslint": "10.9.1",
 		"miniflare": "4.20260730.0",
-		"wrangler": "4.127.1"
+		"wrangler": "4.128.0"
 	},
 	"publishConfig": {
 		"access": "public",
